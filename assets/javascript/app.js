@@ -75,7 +75,7 @@ function createLoss() {
 
 // This generateHTML function houses the created questions as well as the 4 answer options where only one of the answers is right and the other 3 answers are wrong.
 function createHTML() {
-    gameHTML = "<p class='text-center timer-p'>Current Time Remaining For Answer: <span class='timer'>30</span></p><p class='text-center'>" + questionCase[questionCounter] + "</p><p class='first-answer answer'>A. " + questionCase[questionCounter][0] + "</p><p class='answer'>B. " + questionCase[questionCounter][1] + "</p><p class='answer'>C. " + questionCase[questionCounter][2] + "</p><p class='answer'>D. " + questionCase[questionCounter][3] + "</p>";
+    gameHTML = "<p class='text-center timer-p'>Current Time Remaining For Answer: <span class='timer'>30</span></p><p class='text-center'>" + questionCase[questionCounter] + "</p><p class='first-answer answer'>A. " + answerCase[questionCounter][0] + "</p><p class='answer'>B. " + answerCase[questionCounter][1] + "</p><p class='answer'>C. " + answerCase[questionCounter][2] + "</p><p class='answer'>D. " + answerCase[questionCounter][3] + "</p>";
     $(".mainArea").html(gameHTML);
 }
 
@@ -146,7 +146,7 @@ var questionCase =
     ];
 
 // questionCase in this case links the provided question to the 4 answer options 
-var questionCase =
+var answerCase =
 
 
     [
