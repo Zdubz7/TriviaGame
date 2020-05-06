@@ -137,7 +137,7 @@ var questionCase =
 
     ["Who was the only President to serve more than two terms?",
         "Who was the only President to serve two non-consecutive terms?",
-        "Who was the oldest elected President?",
+        "Who was the most wealthy elected President going into office?",
         "Who was the first President to live in the White House?",
         "Who was the first President born outside the contiguous United States?",
         "Before the Twelfth Amendment was passed in 1804, how was the Vice President determined?",
